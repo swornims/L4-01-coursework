@@ -2,14 +2,14 @@
 
 matches = 609
 batted = 1014
-notOut = 162
-runsScored = 48426
+not_out = 162
+runs_scored = 48426
 
-battingAvg = runsScored / (batted - notOut)
+batting_avg = runs_scored / (batted - not_out)
 
 print('Player Name - Geoffrey Boycott')
 print('Matches played -', matches)
 print('Total times batted -', batted)
-print('Total times not out -', notOut)
-print('Total runs -', runsScored)
-print('Boycotts Batting Average -', round(battingAvg, 2))
+print('Total times not out -', not_out)
+print('Total runs -', runs_scored)
+print('Boycotts Batting Average -', round(batting_avg, 2))
